@@ -1,3 +1,8 @@
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 @media (min-width: 1920px) {
   .work-right-text {
     padding: 150px 150px;
@@ -120,6 +125,12 @@
 
 @media (max-width: 767px) {
 
+  .img-logo{
+    display: inline-block;
+    height: 100px  !important;
+    padding: 20px 0;
+    margin-top: 10px;
+  }
   .header-area {
     height: 60px !important;
     background: #000;
@@ -127,7 +138,7 @@
   .navbar-header a.navbar-brand, .stick .navbar-header a.navbar-brand {
     display: inline-block;
     height: 60px  !important;
-    padding: 9px 0;
+    padding: 20px 0;
   }
   .navbar-default .navbar-toggle, .stick .navbar-default .navbar-toggle {
     padding: 15px 0;
